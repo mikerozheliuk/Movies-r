@@ -1,0 +1,20 @@
+.cart {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+
+  &__image {
+    img {
+      border-radius: 10px 10px 0 0;
+      width: 100%;
+    }
+  }
+
+  &__content {
+    padding: 15px;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+  }
+}
