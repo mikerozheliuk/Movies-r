@@ -1,0 +1,56 @@
+.search {
+  width: 95%;
+  margin: 0 auto;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  &__input {
+    width: 100%;
+    padding: 12px 24px;
+
+    color: color(#575756 a(0.8));
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+
+    padding: 12px 0;
+    outline: 0;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #575756;
+    border-radius: 0;
+    background-position: 100% center;
+  }
+
+  &__button {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #2b8367;
+    border-radius: 20px;
+    transition: all 0.5s;
+
+    &:hover {
+      background-color: #144032;
+    }
+  }
+}
+
+.tabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+
+  padding-bottom: 20px;
+}
+
+.tab {
+  color: #2b8367;
+}
+
+.active {
+  color: #144032;
+}
